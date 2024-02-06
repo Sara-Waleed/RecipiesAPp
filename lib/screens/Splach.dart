@@ -81,12 +81,12 @@ class _SplashScreenState extends State<SplashScreen> {
         onHorizontalDragUpdate: (details) {
           if (details.primaryDelta! > 0) {
             _pageController.previousPage(
-              duration: Duration(milliseconds: 300),
+              duration: Duration(milliseconds: 100),
               curve: Curves.easeOut,
             );
           } else if (details.primaryDelta! < 0) {
             _pageController.nextPage(
-              duration: Duration(milliseconds: 300),
+              duration: Duration(milliseconds: 100),
               curve: Curves.easeOut,
             );
           }

@@ -12,9 +12,9 @@ class MealItemWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-       //  Navigator.push(context, MaterialPageRoute(builder: (context) {
-       // //   return Meal_Details(meal);
-       //  },));
+        Navigator.push(context, MaterialPageRoute(builder: (context) {
+         return Meal_Details(meal);
+        },));
       },
       child: Container(
         margin: EdgeInsets.all(8.0),
