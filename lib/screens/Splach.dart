@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'HomePage.dart';
-import 'all_recipies.dart';
+
 
 // class Splash extends StatelessWidget {
 //   const Splash({Key? key}) : super(key: key);
